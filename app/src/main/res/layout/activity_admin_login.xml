@@ -1,0 +1,95 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.ullar.golf.activities.AdminLoginActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"
+            android:layout_marginBottom="2dp"
+            android:text="Email"
+            android:layout_marginLeft="5dp"
+            style="@style/defaultTextViewStyle"
+            android:textSize="30dp"/>
+
+        <EditText
+            android:id="@+id/email_input_editText"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"
+            android:inputType="textEmailAddress"
+            android:hint="youremail@mail.dk"
+            android:padding="7dp"
+            android:backgroundTint="@color/colorPrimary"
+            />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"
+            android:text="Adganskode"
+            android:layout_marginLeft="5dp"
+            android:textSize="30dp"
+            android:layout_marginBottom="2dp"
+            style="@style/defaultTextViewStyle"
+            />
+
+        <EditText
+            android:id="@+id/password_input_editText"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"
+            android:padding="7dp"
+            android:hint="..."
+            android:inputType="textPassword" />
+
+    </LinearLayout>
+
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.15"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dip"
+        android:background="@color/colorPrimaryDark"/>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.15"/>
+
+    <Button
+        android:id="@+id/signup_button"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:onClick="signIn"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:layout_marginLeft="40dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:layout_marginRight="40dp"
+        android:text="Login"/>
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"/>
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_margin="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.3"
+            android:text="isioadoidjio84njk"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            style="@style/defaultTextViewStyle"
+            android:gravity="center"
+            android:id="@+id/order_id"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"
+            android:text="Hul: 9"
+            android:textSize="20dp"
+            style="@style/defaultTextViewStyle"
+            android:gravity="center_vertical"
+            android:id="@+id/textview_current_hole"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.35"
+            android:text="Sandwich"
+            android:textSize="20dp"
+            style="@style/defaultTextViewStyle"
+            android:gravity="center"
+            android:id="@+id/textview_number_of_sandwiches"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.35"
+            android:text="Øl"
+            style="@style/defaultTextViewStyle"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:id="@+id/textview_number_of_beers"/>
+    </LinearLayout>
+</LinearLayout>

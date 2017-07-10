@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "439584912691",
+    "firebase_url": "https://golf-d4b54.firebaseio.com",
+    "project_id": "golf-d4b54",
+    "storage_bucket": "golf-d4b54.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:439584912691:android:bcf7cedf7a0b44d3",
+        "android_client_info": {
+          "package_name": "com.example.ullar.golf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "439584912691-n9rcuc4uhijb5pgfm8d8hivjmsgatn3l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ullar.golf",
+            "certificate_hash": "99dd49f631d4c9c0a4b9bcef0116d743243e9a24"
+          }
+        },
+        {
+          "client_id": "439584912691-unemgdigrk68pknfduuvkol4qr28mv39.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtHn6wawK5mTpLF4cOBlpK-7-x3YI-F4U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "439584912691-unemgdigrk68pknfduuvkol4qr28mv39.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
